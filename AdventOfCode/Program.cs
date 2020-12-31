@@ -35,9 +35,28 @@ namespace AdventOfCode
             int day4Answer1 = Day4.Answer();
             Console.WriteLine(day4Answer1 == -1 ? "Unable to solve" : day4Answer1.ToString());
 
+            // this is wrong answer
             Console.WriteLine("Day 4, answer 2");
             int day4Answer2 = Day4.Answer2();
             Console.WriteLine(day4Answer2 == -1 ? "Unable to solve" : day4Answer2.ToString());
+
+
+
+            Console.WriteLine("Day 5, answer 1");
+            int day5Answer1 = Day5.Answer1();
+            Console.WriteLine(day5Answer1 == -1 ? "Unable to solve" : day5Answer1.ToString());
+
+           // Console.WriteLine("Day 5, answer 2");
+           // int day5Answer2 = Day5.Answer2();
+            //Console.WriteLine(day5Answer2 == -1 ? "Unable to solve" : day5Answer2.ToString());
+
+            Console.WriteLine("Day 6, answer 1");
+            int day6Answer1 = Day6.Answer1();
+            Console.WriteLine(day6Answer1 == -1 ? "Unable to solve" : day6Answer1.ToString());
+
+            Console.WriteLine("Day 6, answer 2");
+            int day6Answer2 = Day6.Answer2();
+            Console.WriteLine(day6Answer2 == -1 ? "Unable to solve" : day6Answer2.ToString());
 
             Console.WriteLine("Press any key to end...");
             Console.ReadKey();
